@@ -14,7 +14,7 @@ A Very Good Flutter app created by Very Good Ventures 🦄.
 Out of the box, Very Good Core includes:
 
 - ✅ [Cross Platform Support][flutter_cross_platform_link] - Built-in support for iOS, Android, Web, and Windows (MacOS/Linux coming soon!)
-- ✅ [Build Flavors][flutter_flavors_link] - Multiple flavor support for development, staging, and production
+- ✅ [Build Flavors][flutter_flavors_link] - Multiple flavor support for development, testing, and production
 - ✅ [Internationalization Support][internationalization_link] - Internationalization support using synthetic code generation to streamline the development process
 - ✅ [Sound Null-Safety][null_safety_link] - No more null-dereference exceptions at runtime. Develop with a sound, static type system.
 - ✅ [Bloc][bloc_link] - Integrated bloc architecture for scalable, testable code which offers a clear separation between business logic and presentation
@@ -39,7 +39,7 @@ _\* Learn more at [Flutter Starter App: Very Good Core & CLI][very_good_cli_blog
 │   └── runConfigurations
 │       ├── development.xml
 │       ├── production.xml
-│       └── staging.xml
+│       └── qa.xml
 ├── .vscode
 │   ├── extensions.json
 │   └── launch.json
@@ -64,7 +64,7 @@ _\* Learn more at [Flutter Starter App: Very Good Core & CLI][very_good_cli_blog
 │   │   └── l10n.dart
 │   ├── main_development.dart
 │   ├── main_production.dart
-│   └── main_staging.dart
+│   └── main_qa.dart
 ├── pubspec.lock
 ├── pubspec.yaml
 ├── test
@@ -77,7 +77,7 @@ _\* Learn more at [Flutter Starter App: Very Good Core & CLI][very_good_cli_blog
 │       ├── helpers.dart
 │       └── pump_app.dart
 ├── web
-└── windows   
+└── windows
 ```
 
 [bloc_link]: https://bloclibrary.dev
